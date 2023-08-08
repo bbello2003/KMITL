@@ -1,0 +1,39 @@
+# ชื่อ : พสิกา พงษ์เสวลักษณ์
+# รหัสนักศึกษา : 65050605
+
+Q1 -> แบบที่ 1 = my copy of i is 1
+	       my copy of i is 2
+      แบบที่ 2 = my copy of i is 2
+	       my copy of i is 1
+      แบบที่ 3 = my copy of i is 1
+	       my copy of i is 1
+
+Q2 -> 2 แบบ
+      แบบที่ 1 = my copy of i is 1
+	       my copy of i is 2
+      แบบที่ 2 = my copy of i is 2
+	       my copy of i is 1
+
+Q3.1 -> 2 ครั้ง
+Q3.2 -> 1 ครั้ง
+
+Q6 -> ได้ผลลัพธ์เหมือนกัน
+
+Q7.1 -> int num_gc = 3;
+Q7.2 -> pidsub = fork();
+Q7.3 -> exit(1);
+Q7.4 -> for(j = 0; j < num_gc; j++){
+	   pidsub = fork();
+           if(pidsub == 1){
+              printf("I am grandchild num %d of even child no %d\n", j, i);
+           }
+        }
+        while(wait(NULL)!= -1);
+Q7.5 -> int num_gc = 4;
+Q7.6 -> pidsub == 0
+Q7.7 -> exit(1);
+Q7.8 -> exit(0);
+Q7.9 -> ไม่ต้องมี exit(0); เพราะ ไม่ได้มีความจำเป็น
+Q7.10 -> 23 บรรทัด
+Q7.11 -> 22 ตัว
+Q7.12 -> no เพราะ ในแต่ละรอบ โพรเซสแม่กับลูกอาจทำงานสลับกัน
